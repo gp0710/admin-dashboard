@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration-style: none;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.parent-container, .searchbar-header, .user-greeting,
+.dashboard {
+    display: flex;
+}
+
+.sidebar {
+    background: blue;
+    color: white;
+    padding: 3%;
+    height: auto;
+}
+
+.logo {
+    margin-bottom: 15px;
+}
+
+.menu > ul {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    row-gap: 5px;
+}
+
+li {
+    list-style: none;
+}
